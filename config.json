@@ -1,0 +1,4 @@
+{
+  "secret": "12345678",
+  "healthCheckIntervalMs": 60000
+}
