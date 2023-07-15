@@ -51,7 +51,7 @@ func main() {
 	fmt.Println("ble-opi-manager is running...")
 	address, _ := adapter.Address()
 	for {
-		// Here is for Raspberry PI Bluetooth bug. Repeated rebroadcasts
+		// Here is for Orange PI Bluetooth bug. Repeated rebroadcasts
 		println("restart advertising...")
 		must("stop adv", adv.Stop())
 		must("start adv", adv.Start())
